@@ -1,0 +1,80 @@
+nav {
+    display: flex;
+    background-color: rgb(101, 11, 107);
+    padding: 0.6rem 1.5rem 1rem 1rem;
+    justify-content: right;
+}
+nav img {
+    margin-right: auto;
+    width: 4%;
+    height: 4%;
+}
+nav li {
+    padding: 0.6rem 1.5rem 1rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+}
+nav li :hover {
+    background-color: white;
+    font-size: 1rem;
+}
+
+header {
+    text-align: center;
+}
+header img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20%;
+    height: 25%;
+}
+header h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+#apropos {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+#apropos img {
+    width: 80%;
+    height: 80%;
+}
+#apropos h1 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main {
+    display: flex;
+}
+.paragraphe {
+    padding: 2em;
+    width: 50%;
+}
+
+.paragraphe2 {
+    display: flex;
+}
+.bloc {
+    width: 33%;
+    padding: 2em;
+    margin: 1em;
+    background-color: white;
+    border-radius: 2em;
+}
+.bloc img {
+    width: 100%;
+    height: 50%;
+}
+#parcours h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: rgb(16, 15, 108);
+}
